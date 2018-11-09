@@ -11,7 +11,7 @@ Before installing the virtualBox, need to enable couple of things:
  - Click Troubleshoot → Advanced options → Start-up Settings → Restart.
  - Click repeatedly the F10/ Esc key (BIOS setup), before the “Startup Menu” opens.
  - Go to Boot Manager and disable the option Secure Boot.
-   [https://github.com/tareque20/kubernetes/blob/master/secure-boot-disable.jpg]
+   (https://github.com/tareque20/kubernetes/blob/master/secure-boot-disable.jpg)
  - Change the UEFI boot order according to the medium you want to boot the computer.
  - secure-boot-disable
 
@@ -21,7 +21,7 @@ Before installing the virtualBox, need to enable couple of things:
  - While your PC is restarting repeatedly tap Esc key to enter BIOS
  - Press the F10 key for BIOS Setup.(Follow the instruction on the screen)
  - Press the right arrow key to System Configuration tab, Select Virtualization Technology and then press the Enter key. 
-	[https://github.com/tareque20/kubernetes/blob/master/virt_bios.gif]
+	(https://github.com/tareque20/kubernetes/blob/master/virt_bios.gif)
  - Select Enabled and press the Enter key.
  - Press the F10 key and select Yes and press the Enter key to save changes and Reboot.
 
