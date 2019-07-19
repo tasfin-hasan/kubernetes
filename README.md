@@ -44,6 +44,10 @@ chmod +x minikube-linux-amd64
 ```sh
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 ```
+For Mac: 
+https://www.virtualbox.org/wiki/Downloads
+https://kubernetes.io/docs/tasks/tools/install-minikube/
+
 #### Version check
 ```sh
 minikube version
@@ -60,6 +64,7 @@ echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/
 ```sh
 sudo apt update && sudo apt -y install kubectl
 ```
+For Mac: https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos
 
 ### Starting minikube
 ```sh
